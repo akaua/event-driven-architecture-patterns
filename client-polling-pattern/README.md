@@ -34,11 +34,11 @@ Create a order to buy something
 
 * **Lambdas**:
     * **StartExecutionStepFuncions**:
-    * **Objective**: Get the informations of order and the ID of message to start StepFunctions workflow
+        * **Objective**: Get the informations of order and the ID of message to start StepFunctions workflow
 
     * **SaveOrder**:
-    * **Objective**: Create the Order with the payload client and the message ID
+        * **Objective**: Create the Order with the payload client and the message ID
 
     * **UpdateOrder**:
-    * **Objective**: Update the Order with results of payment operation
+        * **Objective**: Update the Order with results of payment operation
 
