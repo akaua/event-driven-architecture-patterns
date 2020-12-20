@@ -32,12 +32,13 @@ Create a order to buy something
   * **/GetResults**: Endpoint to get the result of the orders operation
     * **Response**: Result of order
 
-* **StartExecutionStepFuncions**:
-  * **Objective**: Get the informations of order and the ID of message to start StepFunctions workflow
+* **Lambdas**:
+    * **StartExecutionStepFuncions**:
+    * **Objective**: Get the informations of order and the ID of message to start StepFunctions workflow
 
-* **SaveOrder**:
-  * **Objective**: Create the Order with the payload client and the message ID
+    * **SaveOrder**:
+    * **Objective**: Create the Order with the payload client and the message ID
 
-* **UpdateOrder**:
-  * **Objective**: Update the Order with results of payment operation
+    * **UpdateOrder**:
+    * **Objective**: Update the Order with results of payment operation
 
